@@ -1,0 +1,7 @@
+✓ Se debe localizar el dato o la noticia en fuentes confiables o bases de datos academicas.
+✓ Identifica quien publica ¿Es un medio reconocido, una institucion o una publicacion de un desconocido? (considero importante verificar la seccion de acerca de nosotros para analizar la veracidad de la informacion)
+✓ Busca si otras fuentes confiables estan reportandonlo mismo, si la noticia solo aparece en una unica fuente,sospecha.
+✓ verifica la fecha de publicacion, muchas noticias falsas son realidades viejas sacadas de contexto,aserciorate de que sea un evento actual.
+✓ Leer mas alla del titular tambien es un metodo de no caer en desinformacion,muchas veces los titulos suelen ser clickbait, por lo que leer el cuerpo del texto puede servir para ver si los datos respaldan la informacion exagerada del encabezado
+✓ Revisa si el texto incluye enlaces a estudios, documentos oficiales o citas directas. Si solo hay opiniones sin pruebas, no es informacion confiable.
+✓ Finalmente, al ti compartir la informacion, incluye el enlace original o menciona la fuente para que los demas tambien puedan realizar su propio proceso de verificacion.
