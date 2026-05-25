@@ -1,0 +1,5 @@
+Es de vital importancia que las comunidades e iniciativas ciudadanas tengan la capacidad de construir sus propias herramientas tecnológicas utilizando tecnologías abiertas como Node.js , ya que esto fomenta
+la soberanía digital y reduce la dependencia de las grandes corporaciones de software. Al emplear herramientas de código abierto, los ciudadanos pueden auditar, modificar y adaptar las plataformas a sus 
+necesidades específicas y culturales, garantizando la privacidad de sus datos y la transparencia en el manejo de la información. Además, el uso de estas tecnologías disminuye drásticamente los costos de 
+licenciamiento, permitiendo que proyectos comunitarios con presupuestos limitados sigan siendo sostenibles en el tiempo. Finalmente, la creación de software propio impulsa el aprendizaje colectivo, democratiza 
+ el acceso al conocimiento técnico avanzado y empodera a las comunidades para resolver sus problemas locales de forma independiente, equitativa y colaborativa.
