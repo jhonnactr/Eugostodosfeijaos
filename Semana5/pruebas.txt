@@ -1,0 +1,8 @@
+Prueba 1 (http://localhost:3000):
+Al ingresar a esta URL, el servidor responde ejecutando la ruta raíz '/' mediante el método GET, mostrando en la pantalla del navegador el texto plano 'Servidor activo'.
+
+Prueba 2 (http://localhost:3000/saludo):
+Al acceder a este endpoint, el servidor procesa la solicitud GET dirigida a '/saludo' y le devuelve al navegador el texto informativo 'Hola comunidad'.
+
+Prueba 3 (http://localhost:3000/mensaje/juan):
+Esta ruta utiliza un parámetro dinámico llamado ':nombre'. Al escribir 'juan' al final de la URL, el servidor captura ese valor mediante 'req.params.nombre' y responde dinámicamente saludando con el texto 'Hola juan'. Si se cambia por otro nombre, el saludo cambia automáticamente.

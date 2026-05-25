@@ -1,0 +1,8 @@
+¿Qué hace esta ruta?
+Esta ruta escucha solicitudes que utilizan el método HTTP POST en la dirección '/reporte'. A diferencia de las rutas GET, está configurada para recibir datos ocultos enviados por el usuario dentro del cuerpo 
+de la petición (req.body), procesar esa información y devolver una respuesta estructurada en formato JSON confirmando la recepción.
+
+
+¿Para qué podría servir en una aplicación comunitaria?
+En una aplicación de impacto social o comunitario, esta ruta funcionaría como el canal receptor para que los habitantes de un barrio o sector puedan enviar de forma organizada reportes de infraestructura
+dañada, alertas de emergencias, denuncias de seguridad o solicitudes de asistencia, permitiendo recopilar los datos de la comunidad de manera centralizada para gestionarlos eficientemente.

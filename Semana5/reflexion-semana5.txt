@@ -1,0 +1,6 @@
+Las Interfaces de Programación de Aplicaciones (APIs) pueden transformar profundamente la gestión comunitaria al establecer canales digitales unificados y estandarizados para el intercambio de información 
+en tiempo real. Mediante una API, diferentes aplicaciones móviles o vecinales pueden conectarse a un mismo servidor centralizado para enviar alertas vecinales, reportes de servicios públicos o censos 
+internos de manera estructurada y libre de duplicaciones. Esto permite que los datos no se queden aislados en chats de mensajería informales, sino que se almacenen de forma clasificada por categorías,
+fechas o niveles de urgencia. Además, al organizar la información mediante endpoints específicos, los líderes o comités ciudadanos pueden visualizar estadísticas  claras sobre las  problemáticas más
+recurrentes, optimizar la toma de decisiones y coordinar respuestas inmediatas. En definitiva, las APIs actúan como el puente tecnológico que convierte la participación ciudadana dispersa en un sistema 
+de datos inteligente, auditable y altamente eficiente para el beneficio común.
