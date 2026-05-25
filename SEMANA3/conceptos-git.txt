@@ -1,0 +1,10 @@
+Repositorio: Es un espacio de almacenamiento virtual donde se guardan todos los archivos, imagenes y carpetas de un proyecto. Su funcion 
+principal es registrar y organizar de manera estructurada el historial completo de los cambios y versiones de dicho proyecto.
+
+
+Commit: Es una confirmación o "instantánea" que toma Git de tus archivos en un momento específico. Funciona como un punto de guardado en un videojuego, permitiendo registrar formalmente en el historial qué 
+se modificó, quién lo hizo y en qué fecha, con la posibilidad de regresar a ese punto si algo falla.
+
+
+Push:Es el comando que se utiliza para transferir, subir o enviar todos los cambios y commits que has registrado localmente en tu computadora hacia un servidor remoto en internet. Gracias a esta accion tu	
+repositorio alojado en plataformas web como GitHub se actualiza con tu trabajo más reciente.

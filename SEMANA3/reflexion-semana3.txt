@@ -1,0 +1,5 @@
+Mantener un registro detallado de los cambios en un proyecto de software mediante herramientas como Git es de vital importancia porque garantiza la trazabilidad y la seguridad de todo el código desarrollado.
+En primer lugar, permite a los programadores experimentar o implementar nuevas funciones sin el temor de dañar el trabajo previo, ya que si ocurre un error grave, el sistema ofrece la posibilidad de regresar 
+de forma inmediata a una versión anterior que funcionaba de manera estable. Además, este historial facilita enormemente el trabajo en equipo, puesto que ayuda a coordinar las modificaciones hechas por
+diferentes desarrolladores, identificando con precisión quién hizo cada cambio y evitando que se sobrescriba el código ajeno. Finalmente, actúa como una documentación histórica del avance del proyecto,
+lo que simplifica la detección, aislamiento y corrección de fallas que puedan surgir a lo largo del ciclo de vida del software.
