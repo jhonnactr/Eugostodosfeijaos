@@ -1,0 +1,8 @@
+Es fundamental que las plataformas tecnológicas reciban la información y los reportes de los ciudadanos de forma estructurada, mediante formatos como
+ JSON, porque esto optimiza drásticamente el procesamiento y análisis de los datos. Cuando la información llega de manera estandarizada con llaves y valores 
+fijos, los sistemas informáticos pueden clasificar, filtrar y derivar de forma automática los reportes a las dependencias correctas sin necesidad de una 
+intervención humana manual y lenta. Por ejemplo, un reporte categorizado bajo el tipo de "Iluminación pública" puede encasillarse de inmediato en la lista de 
+prioridades del equipo de mantenimiento eléctrico. Además, el almacenamiento de datos ordenados facilita la creación de estadísticas sobre las problemáticas
+ más frecuentes y su ubicación exacta, lo que ayuda a los líderes comunitarios a gestionar soluciones basadas en evidencias reales. En resumen, la estructura en 
+los datos transforma las quejas e iniciativas dispersas en un flujo organizado de información accionable que acelera los tiempos de respuesta y mejora el 
+bienestar colectivo.
