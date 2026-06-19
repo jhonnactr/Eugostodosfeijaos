@@ -1,0 +1,5 @@
+1. No exponer datos personales de los miembros de la comunidad en secciones públicas.
+2. Proteger credenciales mediante el uso de contraseñas robustas y autenticación de dos factores (2FA).
+3. Usar conexiones seguras mediante protocolos HTTPS para cifrar la información transferida.
+4. Registrar accesos y auditorías de eventos para identificar comportamientos sospechosos en el sistema.
+5. Limitar acceso a información sensible únicamente a los roles de administración estrictamente necesarios.

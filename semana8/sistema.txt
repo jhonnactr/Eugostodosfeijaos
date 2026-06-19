@@ -1,0 +1,7 @@
+Análisis de comandos del sistema:
+
+1. 'uname -a': Este comando muestra información detallada sobre el núcleo (kernel) del sistema operativo, incluyendo el nombre del sistema, el nombre de red del nodo, la versión y fecha de compilación del kernel, y la arquitectura del procesador (por ejemplo, x86_64).
+2. 'whoami': Este comando imprime el nombre del usuario con el que se tiene la sesión activa actualmente en la terminal.
+
+Importancia en la administración de servidores:
+Conocer estos datos es fundamental para un administrador por cuestiones de compatibilidad y seguridad. Permite verificar si el sistema cuenta con los parches de seguridad adecuados para la versión exacta del kernel, identificar qué arquitectura tiene la máquina para instalar las dependencias correctas y validar con qué privilegios (usuario común o root) se están ejecutando los procesos y scripts en el servidor.
