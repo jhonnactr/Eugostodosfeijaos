@@ -1,0 +1,12 @@
+DISEÑO DE INTERFAZ DE USUARIO (UI) - PORTAL COMUNITARIO
+
+1. Vista de Causas Disponibles:
+El componente principal de la página de inicio desplegará una cuadrícula (cards) limpia con las causas activas organizadas cronológicamente, mostrando el título del proyecto comunitario, una breve descripción resumida y la fecha de publicación.
+
+2. Formulario para Crear una Causa:
+Sección protegida mediante autenticación que contendrá un formulario web simple con tres campos de entrada de texto: 'Título de la Causa', 'Descripción detallada de la problemática/propuesta' y un botón de acción con la leyenda "Publicar causa comunitaria".
+
+3. Botón para Apoyar y Contador de Apoyos:
+Dentro de cada card de causa se ubicará un componente de interacción directo que constará de un botón estilizado con un icono de respaldo (ej. una mano arriba o corazón) junto a una etiqueta numérica dinámica. Al presionar el botón de apoyo, el contador se actualizará en tiempo real consumiendo el endpoint del CRUD para reflejar la sumatoria total de ciudadanos que respaldan dicho proyecto.
+
+*Nota de usabilidad y privacidad: La interfaz mantendrá un lenguaje visual claro y accesible, omitiendo listados públicos de nombres de los votantes para blindar el anonimato participativo de los ciudadanos.
