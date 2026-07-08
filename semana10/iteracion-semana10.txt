@@ -1,0 +1,15 @@
+PLANIFICACIÓN DE LA ITERACIÓN SIMPLES
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El registro de incidencias por parte del ciudadano.
+- Tarea 2: El sistema de alertas automáticas en Telegram para el coordinador.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo funcional (el Producto Mínimo Viable). Sin la capacidad de registrar una incidencia no existe información para trabajar, y sin la alerta inmediata de Telegram el coordinador no se enteraría a tiempo para actuar, rompiendo el flujo de respuesta rápida comunitaria.
+
+3. Definición de Terminado (Definition of Done - DoD):
+Para mí, una tarea está completamente terminada cuando cumple los siguientes 4 criterios estrictos:
+- Criterio 1 (Funcionalidad): El código fuente se ejecuta sin errores en el entorno local y cumple exactamente con la necesidad de la historia de usuario.
+- Criterio 2 (Seguridad y Privacidad): Se ha verificado que la tarea no expone credenciales, tokens, archivos .env ni datos sensibles de ciudadanos.
+- Criterio 3 (Revisión y Pruebas): La funcionalidad ha sido probada de extremo a extremo simulando escenarios reales de usuarios.
+- Criterio 4 (Trazabilidad): Los cambios limpios han sido guardados en el historial local y subidos con éxito al repositorio de GitHub mediante un commit descriptivo.

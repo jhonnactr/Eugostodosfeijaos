@@ -1,0 +1,18 @@
+DISEÑO DE FLUJO DE AUTOMATIZACIÓN (n8n + TELEGRAM)
+
+1. ¿Qué evento activa el flujo?
+El flujo es activado por un nodo Webhook en n8n que "escucha" en tiempo real cada vez que la API del sistema de veeduría registra un nuevo reporte ciudadano exitoso.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje automatizado al canal del equipo técnico que diga:
+"📢 ¡Alerta de Veeduría! Se ha registrado un nuevo reporte en el sistema. ID provisional: {{ $json.body.id }}. Categoría: {{ $json.body.tipo }}. Por favor, ingrese al panel administrativo para validar el caso de manera segura."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por estrictas políticas de seguridad digital y protección de procesos sociales, bajo ninguna circunstancia se deben enviar a través de Telegram:
+- Nombres completos de los denunciantes o testigos.
+- Documentos de identidad (cédulas, pasaportes).
+- Direcciones exactas de residencias o coordenadas geoespaciales precisas.
+- Números telefónicos o correos electrónicos personales.
+- Claves de API, contraseñas del sistema o tokens de autenticación de servidores.
+Telegram se maneja exclusivamente como un canal de notificación operativa y no sensible; los datos críticos solo se consultan dentro de la base de datos protegida de la plataforma.
+
