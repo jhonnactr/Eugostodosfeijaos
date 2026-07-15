@@ -1,0 +1,10 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n + TELEGRAM)
+
+1. Evento que activa la automatización:
+Un disparador (Trigger) de tipo Webhook en n8n que se activa inmediatamente cuando la entidad 'Causa' alcanza el umbral de firmas o apoyos definidos en la base de datos (por ejemplo, 50 respaldos).
+
+2. Mensaje enviado a Telegram:
+"🚀 ¡Meta cumplida! La causa comunitaria '{{ $json.body.titulo }}' ha recolectado todos los apoyos necesarios. El documento formal de petición ha sido generado en formato PDF y está disponible en el panel de administración."
+
+3. Información que NO debe enviarse por seguridad:
+Bajo ninguna circunstancia se deben enviar listas de nombres, firmas digitalizadas, correos electrónicos, números telefónicos, identificaciones tributarias o de ciudadanía, comentarios sensibles de la denuncia, ni tokens de autenticación de red del servidor. Telegram se restringe exclusivamente para alertas de progreso operativo.

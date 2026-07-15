@@ -1,0 +1,23 @@
+DISEÑO DEL MODELO DE DATOS - PETICIÓN EN 3 CLICS
+
+1. Entidad: Causa
+Campos:
+- id (Entero, Clave Primaria, Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto, Obligatorio)
+- fecha_creacion (Fecha/Hora)
+
+Propósito:
+Sirve para almacenar y categorizar la información esencial de cada iniciativa vecinal que es levantada en la plataforma, permitiendo renderizarla dinámicamente en la interfaz de usuario.
+
+--------------------------------------------------
+
+2. Entidad: Apoyo
+Campos:
+- id (Entero, Clave Primaria, Autoincremental)
+- causa_id (Entero, Clave Foránea que conecta con Causa)
+- iniciales_verificadas (Texto, Ejemplo: "J.D." para validación básica sin comprometer privacidad)
+- fecha_apoyo (Fecha/Hora)
+
+Propósito:
+Registrar y contar de forma segura cada voto de confianza asignado a una causa en particular, vinculando el respaldo a la propuesta correspondiente para justificar la representatividad en el PDF final sin exponer datos sensibles.

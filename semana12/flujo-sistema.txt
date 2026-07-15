@@ -1,0 +1,11 @@
+FLUJO DEL SISTEMA: PETICIÓN EN 3 CLICS
+
+Paso 1 (Creación): Un ciudadano con sesión activa ingresa a la plataforma y crea una causa comunitaria (por ejemplo, "Reparación de luminarias en el parque principal"), aportando un título y una justificación clara.
+
+Paso 2 (Persistencia): La causa se registra de forma estructurada en la base de datos centralizada con un estado inicial "Activo".
+
+Paso 3 (Participación): Otros ciudadanos de la comunidad acceden al portal, leen la descripción del problema y, con un solo clic, suman su respaldo digital a la propuesta.
+
+Paso 4 (Trazabilidad y Métrica): El sistema incrementa el contador de la causa en tiempo real, registrando de forma interna el hash del voto sin almacenar datos confidenciales de los votantes.
+
+Paso 5 (Formalización): Una vez que la causa alcanza la meta de apoyos, el sistema compila la información y genera automáticamente un documento formal en formato PDF (la petición firmada por el colectivo) listo para ser descargado y entregado a las autoridades competentes.
